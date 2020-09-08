@@ -1,0 +1,191 @@
+.main-heading, form {
+    text-align: center;
+}
+
+.main-heading {
+    padding-top: 6%;
+    font-size: 5rem;
+    color: #4284f3;
+}
+
+.rounded-pill {
+    border: 1px solid #ebebeb;
+}
+
+/*Nav*/
+a.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    z-index: 2;
+}
+
+
+
+/*Form*/
+input[type=text] {
+    width: 66%;
+    padding: 1%;
+    outline: none;
+    text-indent: 20px;
+}
+
+input[type=submit]{
+    margin-top: 4%;
+}
+
+.form-group > p {
+    font-size: 11px;
+    margin-top: 1rem;
+}
+
+.logo-subtext {
+    color: #4285f4;
+    font: 22px/22px roboto-regular, arial, sans-serif;
+    left: 124px;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+
+/*Advanced Form */
+div {
+    display: block;
+    margin: 12px;
+}
+
+div.logo-subtext-advanced {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+div.advanced-border {
+    border-bottom: 1px solid #ebebeb;
+}
+
+div.search-section div.search-header {
+    text-align: left;
+    font-size: 17px;
+  
+}
+
+div.form-wrapper {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+div.search-section div.search-title {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    clear: both;
+}
+
+div.search-input input[type=text] {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+}
+
+div.title-spacer {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.title-spacer label {
+    margin-top: 12px;
+}
+
+div.search-section div.search-input {
+    width: 70%;
+}
+
+div.input-spacer {
+    padding-right: 16px;
+    padding-top: 16px;
+}
+
+div.advanced-button input[type=submit] {
+    background-color: #4d90fe;
+    color: #fff;
+    margin: 20px;
+    
+}
+
+/*Responsive*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .main-heading {
+        font-size: 10px;
+        color: red;
+    }
+}
+
+
+/* Desktop */
+@media all and (min-width:1280px){}
+
+/* Tablet */
+@media all and (min-width:481px) and (max-width:1279px){
+
+}
+
+/* Phone */
+@media all and (max-width:480px){
+    .main-heading {
+        font-size: 4.5rem;
+        color: blue;
+    }
+    
+    form > p{
+        color: red;
+    }
+    
+    div.search-section {
+        float:none;
+    }
+    
+    div.search-section div.search-header {
+        margin-left: 0px;
+    }
+    
+    div.search-section div.search-title {
+        margin: 1px;
+        height: 1px;
+    }
+    
+    div.title-spacer label{
+        margin-top: 19px;
+    }
+    div.input-spacer {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    
+    div.search-section div.search-input {
+        width: 100%;
+        margin-left: 60px;
+        height: 60px;
+    }
+
+}
